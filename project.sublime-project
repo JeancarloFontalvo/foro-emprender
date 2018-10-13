@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"client/node_modules",
+				"server/vendor",
+			],
+			"path": "."
+		}
+	],
+	"build_systems": [
+		{
+			"name": "vue-serve",
+			"working_dir": "${project_path}/client/",
+			"cmd": ["/usr/bin/npm", "run", "serve"]
+		},
+		{
+			"name": "artisan-serve",
+			"working_dir": "${project_path}/server",
+			"shell_cmd": "php artisan serve"
+		}
+	]
+}
