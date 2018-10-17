@@ -1,1 +1,360 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"folder",
+				"folder_exclude_patterns"
+			],
+			[
+				"Ph",
+				"phone"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/src/views/Home.vue",
+			"settings":
+			{
+				"buffer_size": 419,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jeancarlo/web/foro-emprender/client/node_modules/buefy/README.md",
+			"settings":
+			{
+				"buffer_size": 3691,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/src/main.ts",
+			"settings":
+			{
+				"buffer_size": 304,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ali",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"material",
+				"Material Theme: Activate theme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 225.0,
+		"history":
+		[
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/foro-emprender",
+		"/opt/lampp/htdocs/foro-emprender/client",
+		"/opt/lampp/htdocs/foro-emprender/client/public",
+		"/opt/lampp/htdocs/foro-emprender/client/src"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/laravels/foro-emprender/client/src/App.vue",
+		"/opt/lampp/htdocs/laravels/foro-emprender/client/src/main.ts",
+		"/opt/lampp/htdocs/laravels/foro-emprender/forum-emprender.sublime-project",
+		"/web/laravels/fondo-emprender",
+		"/opt/lampp/htdocs/laravels/one/app/Phones.php",
+		"/home/jeancarlo/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/jeancarlo/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+		"/opt/lampp/htdocs/laravels/one/routes/api.php",
+		"/opt/lampp/htdocs/laravels/one/.env",
+		"/opt/lampp/htdocs/laravels/one/database/migrations/2018_10_08_162142_create_table_phones.php",
+		"/opt/lampp/htdocs/laravels/one/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/opt/lampp/htdocs/lara-two/servidor/.env",
+		"/root/.bashrc",
+		"/home/jeancarlo/.bashrc",
+		"/etc/profile",
+		"/home/jeancarlo/.bash_profile",
+		"/opt/lampp/htdocs/lara-one/.env",
+		"/etc/php/.bashrc",
+		"/etc/apache2/ports.conf",
+		"/home/jeancarlo/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/src/views/Home.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/jeancarlo/web/foro-emprender/client/node_modules/buefy/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2085,
+								2011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1275.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/src/main.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "vue-serve",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main.ts",
+				"client/src/main.ts"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"phones",
+				"app/Phones.php"
+			],
+			[
+				"routes/ap",
+				"routes/api.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

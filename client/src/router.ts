@@ -1,13 +1,14 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
+import Vue                 from 'vue'
+import Router              from 'vue-router'
+import Home                from '@/views/Home.vue'
+import { 
+          LoginRoutes, 
+          addLoginRoutes 
+       }                   from '@/modules/login'
 
 Vue.use(Router)
 
-export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes: [
+let routes = [
     {
       path: '/',
       name: 'home',
@@ -21,5 +22,14 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     }
-  ]
+]
+
+addLoginRoutes( routes );
+
+
+export default new Router({
+  mode: 'history',
+  base: process.env.BASE_URL,
+  // --- routing modules ---
+  routes: routes
 })
