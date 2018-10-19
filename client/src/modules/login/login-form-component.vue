@@ -5,18 +5,18 @@
       {{ message }}
     </p>
 
-    <div>
-      <div class="row">
-        <div class="col-8">
+    
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter ">
           <form action="/" class="form">
-            <input type="text" name="email">
-            <input type="text" name="email">
-            <button class="btn btn-success">Iniciar sesion</button>
-            <button class="btn btn-primary">Iniciar sesion con Google</button>
+            <input class="input" type="text" name="email">
+            <input class="input" type="text" name="email">
+            <button class="button is-success">Iniciar sesion</button>
+            <button class="button is-primary">Iniciar sesion con Google</button>
           </form>
         </div>
       </div>
-    </div>
+    
   </div>
 </template>
 

@@ -1,13 +1,44 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/login">Login</router-link>
-    </div>
+    <TheNavbar v-bind:links="links"></TheNavbar>
     <router-view/>
   </div>
 </template>
+
+<script lang="ts">
+  import { Component, Vue } from 'vue-property-decorator';
+  import  TheNavbar         from '@/components/static-ui/the-navbar-component.vue'
+
+  @Component({
+    components: {
+      TheNavbar
+    }    
+  })
+  export default class App extends Vue {
+
+      private links: any[];
+
+      constructor(){
+        super();
+
+        this.links = [
+          {
+            text : "Inicio",
+            route: "/"
+          },
+          {
+            text : "Nosotros",
+            route: "/about"
+          },
+          {
+            text : "Iniciar sesion",
+            route: "/login"
+          }
+        ];
+      }
+  }
+
+</script>
 
 <style lang="scss">
 #app {
